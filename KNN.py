@@ -18,21 +18,22 @@ class k_nearest_neighbors:
         #init for algorithm
         self.k = k 
 
-    # The fit method pulls the cleaned data into an array
-    # and moves the classification feature to the last element in each row
-    def knn_fit(self, X_train, y_train): # target is current row index of the classification feature
+    
+    #fit the X_train - training samples and y_train training lables 
+    # and store them so we can use later.
+    def knn_fit(self, X_train, y_train): 
         """
         This method fits the data to the model
         """
         self.X_train = X_train
         self.y_train = y_train
     
-    def knn_predict(self, X): #can have multiple examples
+    def knn_predict(self, X): #can have multiple examples with capital X.
         predicted_lables = [self._predict(x) for x in X]
-        return np.array(predicted_lables)
+        return np.array(predicted_lables) #np convert to array instead of list. 
     
     #helper method
-    def _predict(self, x): #only get one sample
+    def _predict(self, x): #only get one sample with lower case x. 
         #compute distances
         #calculate all the distances of x to all the training samples  
         distances = [euclidean_distance(x, x_train) for x_train in self.X_train]
