@@ -4,4 +4,4 @@ The K-nearest-neighbors is a simple but powerful approach for making predictions
 
 ![Euclidean Distance Function](https://www.oreilly.com/library/view/machine-learning-with/9781789346565/assets/1555c487-d45f-4a1d-ac70-8be68fef47a6.png)
 
-Find [here](https://medium.com/p/2087561010dc/edit) the Medium post for a better understanding. 
+Find [here](https://github.com/AmyBeisel/KNN-from-scratch) the Medium post for a better understanding. 
