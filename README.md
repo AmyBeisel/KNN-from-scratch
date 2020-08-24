@@ -1,3 +1,3 @@
 # KNN-from-scratch
 
-![Euclidean Distance](img/Euclidean Distance Equation.png)
+![Euclidean Distance](imgages/Euclidean Distance Equation.png)
